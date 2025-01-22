@@ -1,0 +1,977 @@
+
+* {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(255, 255, 255) rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border: 3px solid rgb(0, 0, 0);
+}
+:root {
+  --noir: #141414;
+  --bleu: #00aeff;
+  --orange: #ff5f1f;
+  --blanc: #ffffff;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.start {
+  justify-content: start;
+}
+
+.end {
+  justify-content: end;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-direction-columns {
+  flex-direction: column;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.align-self-start {
+  align-self: flex-start;
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+
+.titre {
+  font-family: "Anta", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  color: var(--blanc);
+}
+
+.fond-noir {
+  width: 100%;
+  background-color: #141414;
+  height: 50vh;
+  position: absolute;
+  z-index: -1;
+}
+
+.fond-bleu {
+  width: 100%;
+  background-color: #00aeff;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+}
+
+/**/
+.accueil {
+  clip-path: polygon(100% 0, 100% 70%, 0 100%, 0 20%);
+  background-color: var(--orange);
+  /* background: linear-gradient(to bottom, #141414, #00aeff 54%); */
+  height: 100vh;
+  width: 100%;
+
+}
+
+
+
+.text-accueil {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  margin-bottom: 56px;
+  margin-top: 70vh;
+}
+
+.text-accueil h1 {
+  font-family: "Anta", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: var(--blanc);
+  font-size: 90px;
+}
+
+.text-accueil h2 {
+  font-family: "Anta", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: var(--blanc);
+  font-size: 65px;
+}
+
+.fleche {
+  margin-top: 170px;
+  animation: fleche-hover 0.5s infinite alternate;
+}
+
+
+
+@keyframes fleche-hover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(15px);
+  }
+}
+/*------------------------------------------------------------------------------*/
+/*---------------------------------------------------a propos-----------------------------------------------------------------*/
+.a-propos {
+  background-color: var(--bleu);
+  height: 100vh;
+  width: 100%;
+
+}
+
+.img-accueil-propos {
+  position: absolute;
+  top: 724px;
+  left: 190px;
+}
+
+.img-accueil-propos img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.img-a-propos {
+  position: absolute;
+  top: 1800px;
+  right: 319px;
+  transform: rotate(90deg);
+  transform-origin: right;
+}
+
+.img-a-propos img {
+  width: 100%;
+}
+
+.fond-noir-a-propos {
+  background-color: var(--noir);
+  width: 500px;
+  height: 500px;
+  border-radius: 15px;
+}
+
+.fond-blanc-a-propos {
+  background-color: var(--blanc);
+  width: 463px;
+  height: 463px;
+  border-radius: 15px;
+}
+
+.vignette {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.img_vignette {
+  overflow: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 425px;
+  aspect-ratio: 1/1;
+}
+
+.img_vignette img {
+  width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  position: relative;
+  height: auto;
+}
+
+.img_vignette img:hover {
+  transform: scale(1.2);
+}
+
+.a-propos-content {
+  position: relative;
+  padding: 260px 0;
+
+}
+
+.text-a-propos {
+  width: 810px;
+  height: 500px;
+  text-align: justify;
+  margin-left: 143px;
+}
+
+.titre-a-propos {
+  margin: 35px 0;
+}
+
+.p-a-propos {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 32px;
+  color: var(--blanc);
+}
+
+.p-impotant-a-propos {
+  font-family: "Anta", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+}
+
+.p-imoprtant-a-propos-2 {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 32px;
+  color: var(--blanc);
+}
+
+.cv {
+  color: var(--blanc);
+  font-size: 28px;
+  font-family: "Anta", serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: all 0.3s ease-out;
+}
+
+.text-a-propos a {
+  margin-top: 30px;
+}
+
+.cv:hover {
+  color: var(--orange);
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*----------------------------------mes experiences----------------------------------------------------------------------*/
+
+.mes-experiences {
+  background-color: var(--bleu);
+  height: 100%;
+  padding-bottom: 100px;
+}
+
+.img-experiences {
+  position: absolute;
+  top: 2525px;
+  left: 124px;
+  z-index: 0;
+}
+
+.img-experiences img {
+  width: 650px;
+}
+
+.titre-experiences-pro {
+  margin-bottom: 96px;
+}
+
+
+.experience-pro {
+  background-color: var(--blanc);
+  border-radius: 15px;
+  width: 70%;
+  height: 186px;
+  margin-bottom: 44px;
+  filter: drop-shadow(12px 12px rgba(0, 0, 0, 0.250));
+  position: relative;
+}
+
+.text-experience-pro {
+  position: absolute;
+  margin-left: 119px;
+}
+
+.experience-pro img {
+  margin-left: 57px;
+}
+
+.text-experience-pro div {
+  margin-top: 20px;
+}
+
+.textdate-experience-pro {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.textlist-experience-pro {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.description-experience-pro {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
+/*------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------mes projets----------------------------------------*/
+.mes-projets {
+  background-color: var(--bleu);
+  height: 100%;
+}
+
+.container-categorie-content {
+  background-color: var(--blanc);
+  position: relative;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  /* text-transform: uppercase; */
+  font-size: 15px;
+  width: 70%;
+}
+
+.image-movie-categorie {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0000007f;
+}
+
+.container-categorie-content:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.titre-projets {
+  margin-bottom: 103px;
+  margin-top: 100px;
+}
+
+.projet {
+  position: relative;
+  background-color: var(--blanc);
+  width: 50%;
+  border-radius: 15px;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+.projet img {
+  width: 100%;
+  height: auto;
+}
+
+.text-projet {
+  margin: 20px;
+}
+
+.titre-projet {
+  font-family: "Anta", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+}
+
+.titre-compétences-projet {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.p-description-projet {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 24px;
+  /* margin-left: 20px; */
+  line-height: 1.7;
+  padding: 20px;
+  text-align: justify;
+}
+/*------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------contact----------------------------------------*/
+.contact {
+  background: linear-gradient(to bottom, #00aeff, #141414);
+  height: 100%;
+  padding-bottom: 90px;
+  padding-top: 100px;
+}
+
+.titre-contact {
+  margin-bottom: 53px;
+}
+
+.text-contact {
+  margin-bottom: 53px;
+}
+
+.text-contact h2 {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  color: var(--blanc);
+
+}
+
+.contact-fond-form {
+  background-color: var(--blanc);
+  width: 500px;
+  height: 500px;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 12px 12px rgba(14, 14, 14, 0.250);
+}
+
+
+
+.form-card h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 63px;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.form-card .form-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+
+
+.form-card .form-group input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: rgba(20, 20, 20, 0.600);
+  width: 216px;
+  height: 44px;
+}
+
+
+
+.form-card textarea {
+  width: 100%;
+}
+
+.form-card textarea {
+  padding: 10px;
+  height: 100px;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: rgba(20, 20, 20, 0.600);
+}
+
+.form-card button {
+  background-color: var(--orange);
+  border: none;
+  color: var(--blanc);
+  width: 226px;
+  height: 45px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.form-card button:hover {
+  color: var(--noir);
+  background-color: #E88057;
+}
+
+
+
+.lien-vers-jeu-responsiv {
+  display: block;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1540px) and (max-height: 864px) {
+  .text-accueil {
+    margin-top: 70vh;
+  }
+
+  .accueil h1 {
+    font-size: 70px;
+  }
+
+  .accueil h2 {
+    font-size: 50px;
+  }
+
+  
+  .fleche {
+    margin-top: 60px;
+  }
+
+  .fond-noir-a-propos {
+    width: 370px;
+    height: 370px;
+  }
+
+  .fond-blanc-a-propos {
+    width: 338px;
+    height: 338px;
+  }
+
+  .titre-a-propos {
+    margin: 50px 0;
+  }
+
+  .a-propos-content {
+    padding: 200px 0;
+  }
+
+  .img_vignette {
+    width: 320px;
+  }
+
+  .mes-experiences {
+    padding: 400px 0;
+  }
+
+  .img-accueil-propos {
+    top: 640px;
+    left: 135px;
+  }
+
+  .img-accueil-propos img {
+    width: 86%;
+  }
+
+  .p-a-propos {
+    font-size: 27px;
+  }
+
+  .p-impotant-a-propos {
+    font-size: 27px;
+  }
+
+  .p-imoprtant-a-propos-2 {
+    font-size: 27px;
+  }
+
+  .experience-pro {
+    width: 60%;
+    height: 225px;
+  }
+
+  .img-a-propos {
+    top: 1500px;
+    right: 315px;
+
+  }
+
+  .img-a-propos img {
+    width: 100%;
+  }
+
+  .img-experiences {
+    top: 2500px;
+    left: 124px;
+  }
+
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1044px) {
+  body {
+    width: 100%;
+  }
+
+  .text-accueil {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .text-accueil h1 {
+    font-size: 75px;
+  }
+
+  .text-accueil h2 {
+    font-size: 45px;
+    padding-top: 35px;
+  }
+
+  .img-accueil-propos {
+    top: 80%;
+    left: 355px;
+  }
+
+  .a-propos {
+    height: 100%;
+  }
+
+  .vignette {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .a-propos-content {
+    padding: 263px 0;
+  }
+
+  .titre-a-propos {
+    margin-bottom: 35px;
+    margin-top: 35px;
+  }
+
+  .text-a-propos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    width: 80%;
+    height: 100%;
+    line-height: 55px;
+    margin-top: 50px;
+  }
+
+  .p-a-propos {
+    line-height: 55px;
+  }
+
+  .img-experiences {
+    display: none;
+  }
+
+  .experience-pro {
+    width: 70%;
+    height: 250px;
+  }
+
+  .text-experience-pro {
+    padding: 15px;
+  }
+
+  .contact-fond-form {
+    width: 80%;
+  }
+
+  .form-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .img-a-propos {
+    display: none;
+  }
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1024px) {
+
+  .img-a-propos {
+    display: none;
+  }
+
+
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 820px) {
+
+  .fleche {
+    margin-top: 115px;
+  }
+
+  .img-accueil-propos {
+    top: 95%;
+    left: 250px;
+  }
+
+  .img-accueil-propos img {
+    width: 80%;
+    height: 100%;
+  }
+
+  .experience-pro {
+    width: 85%;
+    height: 280px;
+  }
+
+  .img-a-propos {
+    display: none !important;
+  }
+
+  .fond-noir-a-propos {
+    background-color: var(--noir);
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+  }
+  
+  .fond-blanc-a-propos {
+    background-color: var(--blanc);
+    width: 463px;
+    height: 463px;
+    border-radius: 15px;
+  }
+
+  .vignette {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  
+  .img_vignette {
+    overflow: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 425px;
+    aspect-ratio: 1/1;
+  }
+  
+  .img_vignette img {
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    position: relative;
+    height: auto;
+  }
+
+  .cv{
+    font-size: 40px;
+  }
+  
+}
+
+/*--------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 720px) {
+  body {
+    width: 100vh;
+  }
+
+  .accueil {
+    height: auto;
+  }
+
+  .fond-noir {
+    width: 100vh;
+  }
+
+  .fond-bleu {
+    width: 100vh;
+    top: 100%;
+    height: 100vh;
+  }
+
+  .fleche {
+    width: 100px;
+    margin-top: 180px;
+  }
+
+  .text-accueil h1 {
+    font-size: 60px;
+  }
+
+  .text-p {
+    font-size: 30px;
+  }
+
+  .img-accueil-propos {
+    top: 1540px;
+    left: 280px;
+  }
+
+  .img-accueil-propos img {
+    width: 350px;
+  }
+
+  .a-propos-content {
+    padding: 350px 0;
+  }
+
+  .text-a-propos {
+    width: 80%;
+    height: 100%;
+    line-height: 55px;
+    margin-top: 50px;
+  }
+
+  .img-a-propos {
+    display: none;
+  }
+
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 425px) {
+  body {
+    width: 100vh;
+  }
+
+
+  .text-accueil h1 {
+    font-size: 60px;
+  }
+
+  .img-accueil-propos {
+    top: 1300px;
+    left: 280px;
+  }
+
+  .img-accueil-propos img {
+    width: 300px;
+    height: 100%;
+  }
+
+  .projet {
+    width: 100%;
+  }
+
+  .experience-pro {
+    width: 90%;
+    height: 300px;
+  }
+
+  .text-experience-pro {
+    margin-left: 100px;
+  }
+
+  .experience-pro img {
+    width: 25px;
+  }
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 412px) {
+  .img-accueil-propos {
+    top: 1418px;
+    left: 280px;
+  }
+
+}
+
+
+#loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  color: white;
+  font-size: 18px;
+}
+
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,92 @@
+footer {
+    height: 200px;
+    background-color: var(--noir);
+}
+
+footer ul {
+    width: 70%;
+    height: 100px;
+}
+
+footer ul li {
+    width: 50%;
+    height: 100px;
+    list-style: none;
+}
+
+
+footer i {
+    color: var(--blanc);
+    font-size: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--blanc);
+}
+
+footer a span {
+    text-decoration: underline;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    padding: 10px;
+    display: none;
+}
+
+.copyright h1 {
+    color: var(--blanc);
+    font-family: "Anta", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid gray;
+    width: 50%;
+    margin: 1rem auto;
+}
+
+
+@media screen and (max-width: 1044px) {
+    footer a span {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 820px) {
+    footer a span {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    footer a span {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    footer ul {
+        width: 90%;
+        height: 100px;
+    }
+
+    footer a span {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 412px) {
+    .img-accueil-propos {
+        top: 1418px;
+        left: 280px;
+    }
+
+}

@@ -1,0 +1,137 @@
+
+{
+  "projets": [
+    {
+      "id": 1,
+      "title": "RC photos",
+      "description": "Site internet de photographie",
+      "image": "images/projets/rcphotos/projet-rcphotos.png",
+      "commentsImage": "image de l'accueil du site rcphotos",
+      "linkSite": "https://www.rcphotos.fr/",
+      "linkName": "rcphotos.fr",
+      "linkGithub": "https://github.com/echimine/portfolio",
+      "linkGithubName": "Code source",
+      "logo":"images/projets/rcphotos/logo-romain.png",
+      "logoAlt":"logo de rcphotos",
+      "content": [
+        {
+          "title": "Contexte",
+          "paragraphe1": "Dans le cadre d'un projet personnel, je voulais faire un site internet, pour apprendre et utiliser les techniques vues en cours.",
+          "paragraphe2": "Sachant que mon frère est photographe amateur, je lui ai demandé de faire un site vitrine pour exposer ses photos.",
+          "paragraphe3": "Pour la construction de son site internet, j'ai fait appel à mon père pour qu'il me fasse une API. J'ai donc appelé cette API et construit mes pages en JavaScript."
+          
+        },
+        {
+          "title": "Étape",
+          "sousTitre1": "1 . Création de la maquette sur Figma",
+          "paragraphe1": "J'ai commencé par faire une maquette sur Figma. J'ai voulu faire une maquette simple et épurée qui représente bien le thème de la photographie.",
+          "image1": "images/projets/rcphotos/projet-rcphotos-figma.png",
+          "sousTitre2": "2 . Création du site internet (front end)",
+          "paragraphe2":"J'ai utilisé l'API pour récupérer les informations liées à l'article et je les ai affichées. Puis j'ai décider de faire une animation au scroll en css pour que les articles apparaissent au fur et à mesure que l'on scroll sur la page.",
+          "image2": "images/projets/rcphotos/projet-rcphotos-articles.png",
+          "image3": "images/projets/rcphotos/projet-rcphotos-articles-code.png",
+          "paragraphe3": "Pour le détail d'un article, j'ai fait une grille pour afficher les photos de l'article. il voulais une grille qui s'adapte aux photos horizontales et verticales.",
+          "image4": "images/projets/rcphotos/projet-rcphotos-articles-grille.png",
+          "image5": "images/projets/rcphotos/projet-rcphotos-articles-grille-code.png",
+          "sousTitre3": "3 . Création du coté ADMIN (back end)",
+          "paragraphe4": "Le défi c'était l'upload des images via javascript. Pour cela j'ai du transformer l'image en base64 pour l'envoyer à l'API. L'API se charge de la convertir en jpg et ensuite elle génére une miniature a partir de l'image envoyée.",
+          "image6": "images/projets/rcphotos/projet-rcphotos-admin-base64.png",
+          "image7": "images/projets/rcphotos/projet-rcphotos-admin.png"
+        },
+        {
+          "title": "Mes impréssions",
+          "paragraphe1" : "Ce projet ma permis de mettre en pratique les notions vu en cours. J'ai pu apprendre à utiliser une API, faire des requêtes en javascript et faire des animations en css.",
+          "paragraphe2" : "J'ai aussi appris à faire un site internet responsive. J'ai utilisé les media queries pour adapter mon site internet à tout les écrans. C'est mon premier site responsive."
+        }
+
+      ]
+    },
+    {
+      "id": 2,
+      "title": "IaSurvivor",
+      "description": "Jeu ",
+      "image": "images/projets/workshop1/projet-worshop1.png",
+      "commentsImage": "image de l'accueil du site rcphotos",
+      "linkSite": "https://www.echimine.fr/projets/workshop1/",
+      "linkName": "IaSurvivor",
+      "linkGithub": "https://github.com/echimine/portfolio",
+      "linkGithubName": "Code source",
+      "logo":"images/projets/rcphotos/logo-romain.png",
+      "logoAlt":"logo de rcphotos",
+      "content": [
+        {
+          "title": "Contexte",
+          "paragraphe1": "Dans le cadre d'un projet personnel, je voulais faire un site internet, pour apprendre et utiliser les techniques vues en cours.",
+          "paragraphe2": "Sachant que mon frère est photographe amateur, je lui ai demandé de faire un site vitrine pour exposer ses photos.",
+          "paragraphe3": "Pour la construction de son site internet, j'ai fait appel à mon père pour qu'il me fasse une API. J'ai donc appelé cette API et construit mes pages en JavaScript."
+        },
+        {
+          "title": "Étape",
+          "sousTitre1": "1 . Création de la maquette sur Figma",
+          "paragraphe1": "J'ai commencé par faire une maquette sur Figma. J'ai voulu faire une maquette simple et épurée qui représente bien le thème de la photographie.",
+          "image1": "images/projets/rcphotos/projet-rcphotos-figma.png",
+          "sousTitre2": "2 . Création du site internet (front end)",
+          "paragraphe2":"J'ai utilisé l'API pour récupérer les informations liées à l'article et je les ai affichées. Puis j'ai décider de faire une animation au scroll en css pour que les articles apparaissent au fur et à mesure que l'on scroll sur la page.",
+          "image2": "images/projets/rcphotos/projet-rcphotos-articles.png",
+          "image3": "images/projets/rcphotos/projet-rcphotos-articles-code.png",
+          "paragraphe3": "Pour le détail d'un article, j'ai fait une grille pour afficher les photos de l'article. il voulais une grille qui s'adapte aux photos horizontales et verticales.",
+          "image4": "images/projets/rcphotos/projet-rcphotos-articles-grille.png",
+          "image5": "images/projets/rcphotos/projet-rcphotos-articles-grille-code.png",
+          "sousTitre3": "3 . Création du coté ADMIN (back end)",
+          "paragraphe4": "Le défi c'était l'upload des images via javascript. Pour cela j'ai du transformer l'image en base64 pour l'envoyer à l'API. L'API se charge de la convertir en jpg et ensuite elle génére une miniature a partir de l'image envoyée.",
+          "image6": "images/projets/rcphotos/projet-rcphotos-admin-base64.png",
+          "image7": "images/projets/rcphotos/projet-rcphotos-admin.png"
+        },
+        {
+          "title": "Mes impréssions",
+          "paragraphe1" : "Ce projet ma permis de mettre en pratique les notions vu en cours. J'ai pu apprendre à utiliser une API, faire des requêtes en javascript et faire des animations en css.",
+          "paragraphe2" : "J'ai aussi appris à faire un site internet responsive. J'ai utilisé les media queries pour adapter mon site internet à tout les écrans. C'est mon premier site responsive."
+        }
+
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Duel dans la force",
+      "description": "Jeu de frappe",
+      "image": "images/projets/sw/projet-jeux-de-frappe.png",
+      "commentsImage": "image de l'accueil du jeu de frappe",
+      "linkSite": "https://www.echimine.fr/projets/sw",
+      "linkName": "Duel dans la force",
+      "linkGithub": "https://github.com/echimine/jeu-de-frappe-sw",
+      "linkGithubName": "Code source",
+      "logo":"images/projets/rcphotos/logo-romain.png",
+      "logoAlt":"logo de rcphotos",
+      "content": [
+        {
+          "title": "Contexte",
+          "paragraphe1": "Dans le cadre d'un projet personnel, je voulais faire un site internet, pour apprendre et utiliser les techniques vues en cours.",
+          "paragraphe2": "Sachant que mon frère est photographe amateur, je lui ai demandé de faire un site vitrine pour exposer ses photos.",
+          "paragraphe3": "Pour la construction de son site internet, j'ai fait appel à mon père pour qu'il me fasse une API. J'ai donc appelé cette API et construit mes pages en JavaScript."
+        },
+        {
+          "title": "Étape",
+          "sousTitre1": "1 . Création de la maquette sur Figma",
+          "paragraphe1": "J'ai commencé par faire une maquette sur Figma. J'ai voulu faire une maquette simple et épurée qui représente bien le thème de la photographie.",
+          "image1": "images/projets/rcphotos/projet-rcphotos-figma.png",
+          "sousTitre2": "2 . Création du site internet (front end)",
+          "paragraphe2":"J'ai utilisé l'API pour récupérer les informations liées à l'article et je les ai affichées. Puis j'ai décider de faire une animation au scroll en css pour que les articles apparaissent au fur et à mesure que l'on scroll sur la page.",
+          "image2": "images/projets/rcphotos/projet-rcphotos-articles.png",
+          "image3": "images/projets/rcphotos/projet-rcphotos-articles-code.png",
+          "paragraphe3": "Pour le détail d'un article, j'ai fait une grille pour afficher les photos de l'article. il voulais une grille qui s'adapte aux photos horizontales et verticales.",
+          "image4": "images/projets/rcphotos/projet-rcphotos-articles-grille.png",
+          "image5": "images/projets/rcphotos/projet-rcphotos-articles-grille-code.png",
+          "sousTitre3": "3 . Création du coté ADMIN (back end)",
+          "paragraphe4": "Le défi c'était l'upload des images via javascript. Pour cela j'ai du transformer l'image en base64 pour l'envoyer à l'API. L'API se charge de la convertir en jpg et ensuite elle génére une miniature a partir de l'image envoyée.",
+          "image6": "images/projets/rcphotos/projet-rcphotos-admin-base64.png",
+          "image7": "images/projets/rcphotos/projet-rcphotos-admin.png"
+        },
+        {
+          "title": "Mes impréssions",
+          "paragraphe1" : "Ce projet ma permis de mettre en pratique les notions vu en cours. J'ai pu apprendre à utiliser une API, faire des requêtes en javascript et faire des animations en css.",
+          "paragraphe2" : "J'ai aussi appris à faire un site internet responsive. J'ai utilisé les media queries pour adapter mon site internet à tout les écrans. C'est mon premier site responsive."
+        }
+      ]
+    }
+  ]
+}
