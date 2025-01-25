@@ -103,15 +103,13 @@
 
 /**/
 .accueil {
-  clip-path: polygon(100% 0, 100% 70%, 0 100%, 0 20%);
+
   background-color: var(--orange);
-  /* background: linear-gradient(to bottom, #141414, #00aeff 54%); */
+  background: linear-gradient(to bottom, #141414, #00aeff 54%);
   height: 100vh;
   width: 100%;
 
 }
-
-
 
 .text-accueil {
   width: 100%;
@@ -141,7 +139,7 @@
 }
 
 .fleche {
-  margin-top: 170px;
+  margin-top: 65px;
   animation: fleche-hover 0.5s infinite alternate;
 }
 
