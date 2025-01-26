@@ -12,13 +12,17 @@
         href="https://fonts.googleapis.com/css2?family=Anta&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://kit.fontawesome.com/1dc9ffc1cd.js" crossorigin="anonymous"></script>
+
+
+
     <link rel="icon" href="images/SVG/Plan de travail 1.svg" />
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/projet.css">
+    <link rel="stylesheet" href="css/projets.css">
     <title>Portfolio | Eliott CHIMINELLO</title>
 </head>
 
@@ -30,7 +34,7 @@
             </a>
             <ul class="header-menu flex align-center">
                 <li>
-                    <a href="index.html#a-propos" class="">A propos</a>
+                    <a href="index.html#a-propos">A propos</a>
                 </li>
                 <li>
                     <a href="projets.html">Projets</a>
@@ -39,19 +43,31 @@
                     <a href="index.html#contact">Contact</a>
                 </li>
             </ul>
+
         </div>
     </header>
-    
+
     <div style="background: linear-gradient(to bottom, #141414, #00aeff); width: 100%; height: 200px;"></div>
 
-    <div class="fond flex align-center flex-direction-columns">
-        <div class="global flex flex-direction-rows">
-
-            <section class="right">
+    <section class="titre-projets ">
+        
+        <h1>
+            PROJETS
+        </h1>
+        <p>
+            Découvrer mes projets
+        </p>
+        <marquee behavior="up" direction=""></marquee>
+    </section>
+    <section class="list-projets">
+        <img class="img-circuit-projets" src="images/circuit-projets.svg" alt="">
+        <main>
+            <div class="projets-wrapper">               
                 
-            </section>
-        </div>
-    </div>
+            </div>
+        </main>
+    </section>
+
 
     <div style="background: linear-gradient(to bottom, #00aeff, #141414); width: 100%; height: 200px;"></div>
 
@@ -93,7 +109,9 @@
         </div>
     </footer>
 
-    <script src="js/projet.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+
+    <script src="js/projets.js"></script>
+
 </body>
+
 </html>
