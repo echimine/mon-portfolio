@@ -56,6 +56,9 @@ hr {
         display: none;
     }
 
+    footer i {
+        font-size: 40px;
+    }
 
 }
 
@@ -81,12 +84,9 @@ hr {
         display: none;
     }
 
-}
-
-@media screen and (max-width: 412px) {
-    .img-accueil-propos {
-        top: 1418px;
-        left: 280px;
+    footer i {
+        font-size: 30px;
     }
 
 }
+

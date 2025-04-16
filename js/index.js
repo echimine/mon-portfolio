@@ -13,7 +13,7 @@ form.addEventListener("submit", async (e) => {
   let objet = formData.get("object");
 
   formulaire.push({ "nom": nom, "prenom": prenom, "object": objet, "email": email, "message": message });
-  console.log(formulaire);
+  //console.log(formulaire);
 
   try {
 
@@ -28,7 +28,7 @@ form.addEventListener("submit", async (e) => {
       },
     });
 
-    console.log("Réponse du serveur:", response.data);
+    //console.log("Réponse du serveur:", response.data);
 
     if (response.status === 200) { // Si la réponse est un succès
       //alert("Email envoyé avec succès !");
@@ -38,7 +38,7 @@ form.addEventListener("submit", async (e) => {
       alert("L'email n'a pas été envoyé, veuillez réessayer.");
     }
   } catch (error) {
-    console.error("Erreur lors de l'envoi:", error);
+    //console.error("Erreur lors de l'envoi:", error);
 
     // Afficher un message d'erreur
     alert("Une erreur s'est produite lors de l'envoi de l'email.");

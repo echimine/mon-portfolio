@@ -28,11 +28,11 @@
 
 <body>
     <header>
-        <div class="header-entier flex align-center space-between">
+        <div class="header-entier">
             <a href="index.html" class="header-logo">
                 <img src="images/logo-portfolio-eliott-blanc.png" alt="">
             </a>
-            <ul class="header-menu flex align-center">
+            <ul class="header-menu">
                 <li>
                     <a href="index.html#a-propos">A propos</a>
                 </li>
@@ -43,6 +43,22 @@
                     <a href="index.html#contact">Contact</a>
                 </li>
             </ul>
+            <div class="burger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <ul class="mobile-menu">
+                <li>
+                    <a href="index.html#a-propos">A propos</a>
+                </li>
+                <li>
+                    <a href="projets.html">Projets</a>
+                </li>
+                <li>
+                    <a href="index.html#contact">Contact</a>
+                </li>
+              </ul>
 
         </div>
     </header>
@@ -74,43 +90,22 @@
 
     <footer>
         <div class="flex center">
-            <ul class="flex align-center space-around">
-                <li>
-                    <a class="flex center align-center flex-direction-columns"
-                        href="mailto:eliott.chiminello@gmail.com">
-                        <i class="fa-solid fa-envelope"></i>
-                        <span>eliott.chiminello@echimine.fr</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="flex center align-center flex-direction-columns" href="tel:07-66-87-86-06">
-                        <i class="fa-solid fa-phone"></i>
-                        <span>07-66-87-86-06</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="flex center align-center flex-direction-columns" href="https://github.com/echimine"
-                        target="_blank">
-                        <i class="fa-brands fa-github"></i>
-                        <span>https://github.com/echimine</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="flex center align-center flex-direction-columns" href="#">
-                        <i class="fa-brands fa-linkedin"></i>
-                        <span>lien</span>
-                    </a>
-                </li>
+            <ul class="flex align-center space-around footer-ul">
+                
             </ul>
         </div>
         <hr>
-        <div class="copyright flex center">
-            <h1>tous droits réservés - 2024 - Eliott CHIMINELLO</h1>
+        <div class="copyright flex center ">
+            <div class="flex align-center center">
+                <h1> tous droits réservés - 2024 - Eliott CHIMINELLO</h1>
+            </div>
         </div>
     </footer>
 
 
     <script src="js/projets.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
 
 </body>
 

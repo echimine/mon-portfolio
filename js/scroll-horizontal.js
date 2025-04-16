@@ -5,7 +5,7 @@ window.onload = () => {
         contenthPtojets.forEach((contentProjet) => {
             contentProjet.addEventListener("click", (e) => {
                 let idProjet = contentProjet.getAttribute("idProjet")
-                                    console.log(idProjet)
+                                    //console.log(idProjet)
                                     window.location.href = `projet.html?id=${idProjet}`;
             });
         });
@@ -14,7 +14,7 @@ window.onload = () => {
         contentProjets.forEach((contentProjet) => {
             contentProjet.addEventListener("click", (e) => {
                 let idProjet = contentProjet.getAttribute("idProjet")
-                                    console.log(idProjet)
+                                    //console.log(idProjet)
                                     window.location.href = `projet.html?id=${idProjet}`;
             });
         });
@@ -66,7 +66,3 @@ function getProjet() {
             });
     });
 }
-
-window.addEventListener("resize", () => {
-    ScrollTrigger.refresh();
-});

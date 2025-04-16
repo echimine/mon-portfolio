@@ -24,11 +24,11 @@
 
 <body>
     <header>
-        <div class="header-entier flex align-center space-between">
+        <div class="header-entier">
             <a href="index.html" class="header-logo">
                 <img src="images/logo-portfolio-eliott-blanc.png" alt="">
             </a>
-            <ul class="header-menu flex align-center">
+            <ul class="header-menu">
                 <li>
                     <a href="index.html#a-propos" class="">A propos</a>
                 </li>
@@ -39,18 +39,71 @@
                     <a href="index.html#contact">Contact</a>
                 </li>
             </ul>
+            <div class="burger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <ul class="mobile-menu">
+                <li>
+                    <a href="index.html#a-propos" class="">A propos</a>
+                </li>
+                <li>
+                    <a href="projets.html">Projets</a>
+                </li>
+                <li>
+                    <a href="index.html#contact">Contact</a>
+                </li>
+              </ul>
         </div>
     </header>
     
-    <div style="background: linear-gradient(to bottom, #141414, #00aeff); width: 100%; height: 200px;"></div>
+    <div style="background: linear-gradient(to bottom, #141414, #00aeff); width: 100%; height: 100px;">
+          
+    </div>
 
     <div class="fond flex align-center flex-direction-columns">
-        <div class="global flex flex-direction-rows">
+        <!-- <div class="global flex flex-direction-rows"> -->
 
-            <section class="right">
-                
+            <section class="right flex flex-direction-rows">
+                <!-- <div class="gauche">
+                    <h1>RC photos</h1>
+                    <div class="description flex flex-direction-rows">
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima labore adipisci architecto nobis recusandae doloribus, eveniet cupiditate, maxime, itaque reprehenderit sunt deserunt sit harum necessitatibus vero ad natus aperiam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id reprehenderit neque quas voluptatum animi harum odio! Totam sed dolorum impedit officia eaque delectus harum enim, ea nemo ipsum aliquam vero.</p>
+                        </div>
+                        <div class="technologies">
+                            <h2>Technologies</h2>
+                        <ul class="flex align-center">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JAVASCRIPT</li>
+                        </ul>
+                        <h2>Autres informations</h2>
+                        <ul class="flex align-center">
+                            <li>
+                                Décembre 2024
+                            </li>
+                            <li>
+                                front-end / back-end
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="link flex align-center">
+                        <a href="/">Visiter le site</a>
+                        <a href="/">Github</a>
+                    </div>   
+                </div>
+                <div class="droite">
+                    <div>
+                        <img src="images/projets/rcphotos/projet-rcphotos.png" alt="">
+                        <img src="images/projets/rcphotos/projet-rcphotos.png" alt="">
+                        <img src="images/projets/rcphotos/projet-rcphotos.png" alt="">
+                    </div>
+                </div> -->
             </section>
-        </div>
+        <!-- </div> -->
     </div>
 
     <div style="background: linear-gradient(to bottom, #00aeff, #141414); width: 100%; height: 200px;"></div>
@@ -58,42 +111,21 @@
 
     <footer>
         <div class="flex center">
-            <ul class="flex align-center space-around">
-                <li>
-                    <a class="flex center align-center flex-direction-columns"
-                        href="mailto:eliott.chiminello@gmail.com">
-                        <i class="fa-solid fa-envelope"></i>
-                        <span>eliott.chiminello@echimine.fr</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="flex center align-center flex-direction-columns" href="tel:07-66-87-86-06">
-                        <i class="fa-solid fa-phone"></i>
-                        <span>07-66-87-86-06</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="flex center align-center flex-direction-columns" href="https://github.com/echimine"
-                        target="_blank">
-                        <i class="fa-brands fa-github"></i>
-                        <span>https://github.com/echimine</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="flex center align-center flex-direction-columns" href="#">
-                        <i class="fa-brands fa-linkedin"></i>
-                        <span>lien</span>
-                    </a>
-                </li>
+            <ul class="flex align-center space-around footer-ul">
+                
             </ul>
         </div>
         <hr>
-        <div class="copyright flex center">
-            <h1>tous droits réservés - 2024 - Eliott CHIMINELLO</h1>
+        <div class="copyright flex center ">
+            <div class="flex align-center center">
+                <h1> tous droits réservés - 2024 - Eliott CHIMINELLO</h1>
+            </div>
         </div>
     </footer>
 
     <script src="js/projet.js"></script>
+    <script src="js/header.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    <script src="js/footer.js"></script>
 </body>
 </html>

@@ -1,216 +1,225 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 * {
-    scroll-behavior: smooth;
-    scrollbar-width: thin;
-    scrollbar-color: rgb(255, 255, 255) rgb(0, 0, 0);
-    margin: 0;
-    padding: 0;
-
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(255, 255, 255) rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+  width: 12px;
 }
 
 *::-webkit-scrollbar-track {
-    background: rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: rgb(0, 0, 0);
-    border-radius: 20px;
-    border: 3px solid rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border: 3px solid rgb(0, 0, 0);
 }
 
 :root {
-    --noir: #141414;
-    --bleu: #00aeff;
-    --orange: #ff5f1f;
-    --blanc: #ffffff;
+  --noir: #141414;
+  --bleu: #00aeff;
+  --orange: #ff5f1f;
+  --blanc: #ffffff;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .start {
-    justify-content: start;
+  justify-content: start;
 }
 
 .end {
-    justify-content: end;
+  justify-content: end;
 }
 
 .space-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .space-around {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .align-center {
-    align-items: center;
+  align-items: center;
 }
 
 .flex-wrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .flex-direction-columns {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .align-self-center {
-    align-self: center;
+  align-self: center;
 }
 
 .align-self-start {
-    align-self: flex-start;
+  align-self: flex-start;
 }
 
 .align-self-end {
-    align-self: flex-end;
+  align-self: flex-end;
 }
 
 marquee {
-    position: absolute;
-    font-size: 1.2rem;
-    color: white;
-    height: 100%;
-    width: 50px;
-    background: transparent;
-    padding: 10px;
-    overflow: hidden;
+  position: absolute;
+  font-size: 1.2rem;
+  color: white;
+  height: 100%;
+  width: 50px;
+  background: transparent;
+  padding: 10px;
+  overflow: hidden;
 }
-
 
 section {
-    background-color: var(--bleu);
+  background-color: var(--bleu);
 }
 
-.titre-projets{
-    height: 50vh;
-    padding: 18px;
+.titre-projets {
+  height: 50vh;
+  padding: 18px;
 }
 
 .titre-projets h1 {
-    width: 100%;
-    font-family: "Anta", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 106px;
-    text-align: center;
-    display: inline-block;
-    color: var(--blanc);  
+  width: 100%;
+  font-family: 'Anta', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 106px;
+  text-align: center;
+  display: inline-block;
+  color: var(--blanc);
 }
 
 .titre-projets p {
-    width: 100%;
-    font-family: "Roboto", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 32px;
-    color: var(--blanc);
-    text-align: center;
+  width: 100%;
+  font-family: 'Roboto', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  color: var(--blanc);
+  text-align: center;
 }
 
-
-.list-projets{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+.list-projets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
-.img-circuit-projets{
-    position: absolute;
-    right: 0;
+.img-circuit-projets {
+  position: absolute;
+  right: 0;
 }
 
 .projets-wrapper {
-    width: calc(100vw - (34px * 6));
-    max-width: 1100px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 64px;
-    grid-row-gap: 34px;
+  width: calc(100vw - (14px * 6));
+  max-width: 1100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 64px;
+  grid-row-gap: 34px;
 }
 
 .projets-wrapper i {
-    color: var(--orange);
-    width: 50px;
-    height: 50px;
+  color: var(--orange);
+  width: 50px;
+  height: 50px;
 }
 
 .projet-card {
-    position: relative;
-    width: 100%;
-    cursor: pointer;
-    background-color: var(--blanc);
-    background-size: contain;
-    background-position: right center;
-    background-repeat: no-repeat;
-    padding: 18px;
-    color: var(--noir);
-    text-decoration: none;
-    border-radius: 13px;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  background-color: var(--blanc);
+  background-size: cover;
+  padding: 18px;
+  color: var(--noir);
+  text-decoration: none;
+  border-radius: 13px;
+  overflow: hidden;
 }
 
 .projet-card-image {
-    width: 100%;
-    border-radius: 15px;
+  width: 100%;
+  border-radius: 15px;
 }
 
-.projet-card-name{
-    width: 100%;
+.projet-card-name {
+  width: 100%;
 }
 
 .projet-card-name h3 {
-    font-size: 32px;
-    font-weight: 600;
-    font-family: "Anta", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.3s ease-in-out; /* Transition fluide */
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'Anta', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease-in-out;
 }
 
 .projet-card p {
-    border-bottom: 2px solid transparent;
-    font-family: "Roboto", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    transition: border-bottom 0.4s ease-in-out; /* Transition fluide */
-    margin-top: 10px;
+  border-bottom: 2px solid transparent;
+  font-family: 'Roboto', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  transition: border-bottom 0.4s ease-in-out;
+  margin-top: 10px;
 }
 
-
-
 .projet-card span {
-    border-bottom: 2px solid transparent;
-    font-family: "Roboto", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    transition: border-bottom 0.4s ease-in-out; /* Transition fluide */
-    margin-top: 16px;
-    margin-right: 16px;
+  border-bottom: 2px solid transparent;
+  font-family: 'Roboto', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  transition: border-bottom 0.4s ease-in-out;
+  margin-top: 16px;
+  margin-right: 16px;
 }
 
 .projet-card:hover span {
-    border-bottom: 2px solid var(--orange);
+  border-bottom: 2px solid var(--orange);
 }
 
+@media (max-width: 1044px) {
+  .projets-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 425px) {
+  /* body{
+        width: 100vw;
+    } */
+
+  .titre-projets h1 {
+    font-size: 50px;
+  }
+}

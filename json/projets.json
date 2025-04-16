@@ -1,135 +1,264 @@
-
 {
   "projets": [
     {
       "id": 1,
-      "title": "RC photos",
-      "description": "Site internet de photographie",
-      "image": "images/projets/rcphotos/projet-rcphotos.png",
-      "commentsImage": "image de l'accueil du site rcphotos",
-      "linkSite": "https://www.rcphotos.fr/",
-      "linkName": "rcphotos.fr",
-      "linkGithub": "https://github.com/echimine/portfolio",
-      "linkGithubName": "Code source",
-      "logo":"images/projets/rcphotos/logo-romain.png",
-      "logoAlt":"logo de rcphotos",
-      "content": [
+      "title": "Holosphère",
+      "text": "Holosphere est un projet de fin d’année réalisé dans le cadre de ma première année en DN MADE, sur le <span>thème 'Souvenir'</span> . C’est une expérience interactive en 3D qui transforme une sphère en un véritable objet de mémoire. L’utilisateur peut y <span>projeter des photos</span> au centre de la boule et <span>choisir un thème</span> (comme l’été ou l’hiver) qui ajoute des <span>objets 3D</span> à l’intérieur de la sphère, créant ainsi une ambiance immersive et personnalisée pour revivre ses souvenirs autrement. Le projet a été développé avec <span>ReactJS, Three.js (drei) et Tailwind CSS</span>. C’était une première pour moi avec ces outils, un vrai challenge technique, mais aussi une super opportunité d’apprentissage. Nous étions <span>quatre dans l’équipe</span> : trois designers et moi en tant que développeur principal du projet.",
+      "description": "site E-commerce (en cours)",
+      "image": "images/projets/holosphere/accueil_holosphere.png",
+      "images": [
         {
-          "title": "Contexte",
-          "paragraphe1": "Dans le cadre d'un projet personnel, je voulais faire un site internet, pour apprendre et utiliser les techniques vues en cours.",
-          "paragraphe2": "Sachant que mon frère est photographe amateur, je lui ai demandé de faire un site vitrine pour exposer ses photos.",
-          "paragraphe3": "Pour la construction de son site internet, j'ai fait appel à mon père pour qu'il me fasse une API. J'ai donc appelé cette API et construit mes pages en JavaScript."
-          
+          "image": "images/projets/holosphere/accueil_holosphere.png",
+          "alt": "image de l'accueil du site rcphotos"
         },
         {
-          "title": "Étape",
-          "sousTitre1": "1 . Création de la maquette sur Figma",
-          "paragraphe1": "J'ai commencé par faire une maquette sur Figma. J'ai voulu faire une maquette simple et épurée qui représente bien le thème de la photographie.",
-          "image1": "images/projets/rcphotos/projet-rcphotos-figma.png",
-          "sousTitre2": "2 . Création du site internet (front end)",
-          "paragraphe2":"J'ai utilisé l'API pour récupérer les informations liées à l'article et je les ai affichées. Puis j'ai décider de faire une animation au scroll en css pour que les articles apparaissent au fur et à mesure que l'on scroll sur la page.",
-          "image2": "images/projets/rcphotos/projet-rcphotos-articles.png",
-          "image3": "images/projets/rcphotos/projet-rcphotos-articles-code.png",
-          "paragraphe3": "Pour le détail d'un article, j'ai fait une grille pour afficher les photos de l'article. il voulais une grille qui s'adapte aux photos horizontales et verticales.",
-          "image4": "images/projets/rcphotos/projet-rcphotos-articles-grille.png",
-          "image5": "images/projets/rcphotos/projet-rcphotos-articles-grille-code.png",
-          "sousTitre3": "3 . Création du coté ADMIN (back end)",
-          "paragraphe4": "Le défi c'était l'upload des images via javascript. Pour cela j'ai du transformer l'image en base64 pour l'envoyer à l'API. L'API se charge de la convertir en jpg et ensuite elle génére une miniature a partir de l'image envoyée.",
-          "image6": "images/projets/rcphotos/projet-rcphotos-admin-base64.png",
-          "image7": "images/projets/rcphotos/projet-rcphotos-admin.png"
+          "image": "images/projets/holosphere/accueil-text-holosphere.png",
+          "alt": "image des articles du site rcphotos"
         },
         {
-          "title": "Mes impréssions",
-          "paragraphe1" : "Ce projet ma permis de mettre en pratique les notions vu en cours. J'ai pu apprendre à utiliser une API, faire des requêtes en javascript et faire des animations en css.",
-          "paragraphe2" : "J'ai aussi appris à faire un site internet responsive. J'ai utilisé les media queries pour adapter mon site internet à tout les écrans. C'est mon premier site responsive."
+          "image": "images/projets/holosphere/animation-home-holosphere.png",
+          "alt": "image du détail d'un article du site rcphotos"
+        },
+        {
+          "image": "images/projets/holosphere/jeu-home-holosphere.png",
+          "alt": "image du back-end du site rcphotos"
+        },
+        {
+          "image": "images/projets/holosphere/jeu-personnalisation-holosphere.png",
+          "alt": "image du back-end du site rcphotos"
+        },
+        {
+          "image": "images/projets/holosphere/story-holosphere.png",
+          "alt": "image du back-end du site rcphotos"
         }
-
+      ],
+      "links": [
+        {
+          "linksite": "https://holosphere.vercel.app/",
+          "linkname": "Visiter le site"
+        },
+        {
+          "linksite": "https://github.com/fryxeel/holosphere",
+          "linkname": "Github"
+        }
+      ],
+      "competences": [
+        {
+          "competence": "React"
+        },
+        {
+          "competence": "Tailwind CSS"
+        },
+        {
+          "competence": "NextJS"
+        },
+        {
+          "competence": "ThreeJS / drei"
+        }
+      ],
+      "divers": [
+        {
+          "quand": "mars 2025",
+          "quoi": "Front-end"
+        }
       ]
     },
     {
       "id": 2,
-      "title": "IaSurvivor",
-      "description": "Jeu ",
-      "image": "images/projets/workshop1/projet-worshop1.png",
-      "commentsImage": "image de l'accueil du site rcphotos",
-      "linkSite": "https://www.echimine.fr/projets/workshop1/",
-      "linkName": "IaSurvivor",
-      "linkGithub": "https://github.com/echimine/portfolio",
-      "linkGithubName": "Code source",
-      "logo":"images/projets/rcphotos/logo-romain.png",
-      "logoAlt":"logo de rcphotos",
-      "content": [
+      "title": "RC photos",
+      "text": "J'ai développé un site vitrine pour exposer les photos de mon frère, photographe amateur. Pour structurer le projet, j’ai fait appel à mon père pour créer une <span>API</span>, que j’ai intégrée en <span>JavaScript</span> afin de récupérer et afficher les articles. Un des principaux défis techniques a été l’upload des images : j’ai dû les <span>convertir en base64</span>  avant de les envoyer à l’API. Celle-ci se charge ensuite de les transformer en JPG et de générer une miniature. Ce projet m’a permis d’apprendre à interagir avec une API, gérer les <span>requêtes</span> (ajouter, supprimer, modifier...)  en JavaScript. C'était une excellente opportunité pour mettre en pratique les notions de back-end et renforcer mes compétences en développement web (CSS, HTML).",
+      "description": "Site vitrine de photographie",
+      "image": "images/projets/rcphotos/projet-rcphotos.png",
+      "images": [
         {
-          "title": "Contexte",
-          "paragraphe1": "Dans le cadre d'un projet personnel, je voulais faire un site internet, pour apprendre et utiliser les techniques vues en cours.",
-          "paragraphe2": "Sachant que mon frère est photographe amateur, je lui ai demandé de faire un site vitrine pour exposer ses photos.",
-          "paragraphe3": "Pour la construction de son site internet, j'ai fait appel à mon père pour qu'il me fasse une API. J'ai donc appelé cette API et construit mes pages en JavaScript."
+          "image": "images/projets/rcphotos/projet-rcphotos.png",
+          "alt": "image de l'accueil du site rcphotos"
         },
         {
-          "title": "Étape",
-          "sousTitre1": "1 . Création de la maquette sur Figma",
-          "paragraphe1": "J'ai commencé par faire une maquette sur Figma. J'ai voulu faire une maquette simple et épurée qui représente bien le thème de la photographie.",
-          "image1": "images/projets/rcphotos/projet-rcphotos-figma.png",
-          "sousTitre2": "2 . Création du site internet (front end)",
-          "paragraphe2":"J'ai utilisé l'API pour récupérer les informations liées à l'article et je les ai affichées. Puis j'ai décider de faire une animation au scroll en css pour que les articles apparaissent au fur et à mesure que l'on scroll sur la page.",
-          "image2": "images/projets/rcphotos/projet-rcphotos-articles.png",
-          "image3": "images/projets/rcphotos/projet-rcphotos-articles-code.png",
-          "paragraphe3": "Pour le détail d'un article, j'ai fait une grille pour afficher les photos de l'article. il voulais une grille qui s'adapte aux photos horizontales et verticales.",
-          "image4": "images/projets/rcphotos/projet-rcphotos-articles-grille.png",
-          "image5": "images/projets/rcphotos/projet-rcphotos-articles-grille-code.png",
-          "sousTitre3": "3 . Création du coté ADMIN (back end)",
-          "paragraphe4": "Le défi c'était l'upload des images via javascript. Pour cela j'ai du transformer l'image en base64 pour l'envoyer à l'API. L'API se charge de la convertir en jpg et ensuite elle génére une miniature a partir de l'image envoyée.",
-          "image6": "images/projets/rcphotos/projet-rcphotos-admin-base64.png",
-          "image7": "images/projets/rcphotos/projet-rcphotos-admin.png"
+          "image": "images/projets/rcphotos/projet-rcphotos-articles.png",
+          "alt": "image des articles du site rcphotos"
         },
         {
-          "title": "Mes impréssions",
-          "paragraphe1" : "Ce projet ma permis de mettre en pratique les notions vu en cours. J'ai pu apprendre à utiliser une API, faire des requêtes en javascript et faire des animations en css.",
-          "paragraphe2" : "J'ai aussi appris à faire un site internet responsive. J'ai utilisé les media queries pour adapter mon site internet à tout les écrans. C'est mon premier site responsive."
+          "image": "images/projets/rcphotos/projet-rcphotos-articles-grille.png",
+          "alt": "image du détail d'un article du site rcphotos"
+        },
+        {
+          "image": "images/projets/rcphotos/projet-rcphotos-admin.png",
+          "alt": "image du back-end du site rcphotos"
         }
-
+      ],
+      "links": [
+        {
+          "linksite": "https://www.rcphotos.fr/",
+          "linkname": "Visiter le site"
+        }
+      ],
+      "competences": [
+        {
+          "competence": "HTML"
+        },
+        {
+          "competence": "CSS"
+        },
+        {
+          "competence": "JAVASCRIPT"
+        }
+      ],
+      "divers": [
+        {
+          "quand": "decembre 2024",
+          "quoi": "Front-end / Back-end"
+        }
       ]
     },
     {
       "id": 3,
-      "title": "Duel dans la force",
+      "title": "À TABLE !",
+      "text": "Dans le cadre de mon apprentissage de <span>Vue.js</span>, j’ai réalisé un projet de site de recettes nommé À Table !. Ce projet repose sur <span>l’API Spoonacular</span>, que j’ai intégrée au <span>store</span> pour centraliser la gestion des données. Les principales fonctionnalités sont <span>l'ajout aux favoris</span> avec la possibilité de sauvegarder des recettes pour un accès rapide. Puis une <span>liste de courses interactive</span> où les utilisateurs peuvent sélectionner des ingrédients directement depuis une recette pour générer une liste de courses. Affichage des <span>détails des recettes</span> . Le site est <span>responsive mobile-first</span> . Cette expérience m’a permis d’améliorer mes compétences en Vue.js avec l’Option API, avec un store personnalisé, utilisation du router, et en interaction avec une API externe.",
+      "description": "Site internet de cuisine",
+      "image": "images/projets/atable/a-table.png",
+      "images": [
+        {
+          "image": "images/projets/atable/a-table.png",
+          "alt": "image de l'accueil du site à table !"
+        },
+        {
+          "image": "images/projets/atable/recipe-detail-ingredient.png",
+          "alt": "image des articles du site rcphotos"
+        },
+        {
+          "image": "images/projets/atable/recipe-detail-instructions.png",
+          "alt": "image du détail d'un article du site rcphotos"
+        },
+        {
+          "image": "images/projets/atable/my-favorite.png",
+          "alt": "image du back-end du site rcphotos"
+        },
+        {
+          "image": "images/projets/atable/my-shopping-list.png",
+          "alt": "image du back-end du site rcphotos"
+        }
+      ],
+      "links": [
+        {
+          "linksite": "https://www.echimine.fr/projets/a-table/",
+          "linkname": "Visiter le site"
+        },
+        {
+          "linksite": "https://github.com/echimine/a-table.git",
+          "linkname": "Github"
+        }
+      ],
+      "competences": [
+        {
+          "competence": "HTML"
+        },
+        {
+          "competence": "CSS"
+        },
+        {
+          "competence": "JAVASCRIPT"
+        },
+        {
+          "competence": "VUE.JS"
+        }
+      ],
+      "divers": [
+        {
+          "quand": "Février 2025",
+          "quoi": "Front-end"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "IaSurvivor",
+      "text": "Dans le cadre d’un workshop de 5 jours en équipe, nous devions créer un événement “Bar à Jeux Numérique” avec plusieurs ateliers interactifs. Parmi les 7 jeux proposés, j’ai choisi IA Survivor, qui me semblait le plus intéressant à développer. Nous avons travaillé en équipe avec 3 développeurs et 2 designers. Le jeu consiste à proposer une solution face à un scénario donné, et une IA décide si l’on survit ou non en fonction de la réponse fournie. Ce projet a été mon tout premier. Nous avons utilisé <span>HTML, CSS et JavaScript</span> pour concevoir le jeu. JavaScript nous a servi pour le côté interactif et pour récupérer les scénarios grâce à l'utilisation du localStorage. J’ai particulièrement apprécié la <span>collaboration en équipe<span>, que ce soit avec les développeurs mais aussi avec les graphistes.",
+      "description": "Jeu avec utilisation d'une IA",
+      "image": "images/projets/workshop1/projet-worshop1.png",
+      "images": [
+        {
+          "image": "images/projets/workshop1/projet-worshop1.png",
+          "alt": "image de l'accueil du jeu IaSurvivor"
+        },
+        {
+          "image": "images/projets/workshop1/projet-worshop1-scenario.png",
+          "alt": "image des articles du site rcphotos"
+        },
+        {
+          "image": "images/projets/workshop1/projet-worshop1-ecriture-solution.png",
+          "alt": "image du détail d'un article du site rcphotos"
+        },
+        {
+          "image": "images/projets/workshop1/projet-workshop1-reponse-ia.png",
+          "alt": "image du back-end du site rcphotos"
+        },
+        {
+          "image": "images/projets/workshop1/projet-workshop1-fin-mort.png",
+          "alt": "image du back-end du site rcphotos"
+        }
+      ],
+      "links": [
+        {
+          "linksite": "https://www.echimine.fr/projets/workshop1/",
+          "linkname": "Visiter le site"
+        }
+      ],
+      "competences": [
+        {
+          "competence": "HTML"
+        },
+        {
+          "competence": "CSS"
+        },
+        {
+          "competence": "JAVASCRIPT"
+        }
+      ],
+      "divers": [
+        {
+          "quand": "Novembre 2024",
+          "quoi": "Front-end"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Duel dans la Force",
+      "text": "Le projet 'Duel dans la Force' est <span> un jeu de frappe en JavaScript </span> où deux joueurs s'affrontent dans l'univers de Star Wars. Le but du jeu est simple : chaque joueur doit frapper au bon moment pour allumer son sabre laser, et le premier à réussir cela remporte la partie. En tant que passionné de Star Wars, j'ai choisi de faire le thème de Stawars. Techniquement, j'ai utilisé la <span> gestion des événements </span> avec les <i>KeyUp</i> et aussi la couleur du sabre laser change en fonction du score. Ce projet a permis de perfectionner mes compétences en JavaScript, tout en étant une bonne occasion d'appliquer des concepts appris en cours.",
       "description": "Jeu de frappe",
       "image": "images/projets/sw/projet-jeux-de-frappe.png",
-      "commentsImage": "image de l'accueil du jeu de frappe",
-      "linkSite": "https://www.echimine.fr/projets/sw",
-      "linkName": "Duel dans la force",
-      "linkGithub": "https://github.com/echimine/jeu-de-frappe-sw",
-      "linkGithubName": "Code source",
-      "logo":"images/projets/rcphotos/logo-romain.png",
-      "logoAlt":"logo de rcphotos",
-      "content": [
+      "images": [
         {
-          "title": "Contexte",
-          "paragraphe1": "Dans le cadre d'un projet personnel, je voulais faire un site internet, pour apprendre et utiliser les techniques vues en cours.",
-          "paragraphe2": "Sachant que mon frère est photographe amateur, je lui ai demandé de faire un site vitrine pour exposer ses photos.",
-          "paragraphe3": "Pour la construction de son site internet, j'ai fait appel à mon père pour qu'il me fasse une API. J'ai donc appelé cette API et construit mes pages en JavaScript."
+          "image": "images/projets/sw/projet-jeux-de-frappe.png",
+          "alt": "image du jeu Duel dans la force"
+        }
+      ],
+      "links": [
+        {
+          "linksite": "https://www.echimine.fr/projets/sw/index.html",
+          "linkname": "Visiter le site"
         },
         {
-          "title": "Étape",
-          "sousTitre1": "1 . Création de la maquette sur Figma",
-          "paragraphe1": "J'ai commencé par faire une maquette sur Figma. J'ai voulu faire une maquette simple et épurée qui représente bien le thème de la photographie.",
-          "image1": "images/projets/rcphotos/projet-rcphotos-figma.png",
-          "sousTitre2": "2 . Création du site internet (front end)",
-          "paragraphe2":"J'ai utilisé l'API pour récupérer les informations liées à l'article et je les ai affichées. Puis j'ai décider de faire une animation au scroll en css pour que les articles apparaissent au fur et à mesure que l'on scroll sur la page.",
-          "image2": "images/projets/rcphotos/projet-rcphotos-articles.png",
-          "image3": "images/projets/rcphotos/projet-rcphotos-articles-code.png",
-          "paragraphe3": "Pour le détail d'un article, j'ai fait une grille pour afficher les photos de l'article. il voulais une grille qui s'adapte aux photos horizontales et verticales.",
-          "image4": "images/projets/rcphotos/projet-rcphotos-articles-grille.png",
-          "image5": "images/projets/rcphotos/projet-rcphotos-articles-grille-code.png",
-          "sousTitre3": "3 . Création du coté ADMIN (back end)",
-          "paragraphe4": "Le défi c'était l'upload des images via javascript. Pour cela j'ai du transformer l'image en base64 pour l'envoyer à l'API. L'API se charge de la convertir en jpg et ensuite elle génére une miniature a partir de l'image envoyée.",
-          "image6": "images/projets/rcphotos/projet-rcphotos-admin-base64.png",
-          "image7": "images/projets/rcphotos/projet-rcphotos-admin.png"
+          "linksite": "https://github.com/echimine/jeu-de-frappe-sw.git",
+          "linkname": "Github"
+        }
+      ],
+      "competences": [
+        {
+          "competence": "HTML"
         },
         {
-          "title": "Mes impréssions",
-          "paragraphe1" : "Ce projet ma permis de mettre en pratique les notions vu en cours. J'ai pu apprendre à utiliser une API, faire des requêtes en javascript et faire des animations en css.",
-          "paragraphe2" : "J'ai aussi appris à faire un site internet responsive. J'ai utilisé les media queries pour adapter mon site internet à tout les écrans. C'est mon premier site responsive."
+          "competence": "CSS"
+        },
+        {
+          "competence": "JAVASCRIPT"
+        }
+      ],
+      "divers": [
+        {
+          "quand": "Novembre 2024",
+          "quoi": "Front-end"
         }
       ]
     }

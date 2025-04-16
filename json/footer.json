@@ -1,0 +1,24 @@
+{
+    "footer":[
+        {
+            "link":"mailto:eliott.chiminello@echimine.fr",
+            "text":"eliott.chiminello@echimine.fr",
+            "iconclass":"fa-solid fa-envelope"
+        },
+        {
+            "link":"tel:07-66-87-86-06",
+            "text":"07-66-87-86-06",
+            "iconclass":"fa-solid fa-phone"
+        },
+        {
+            "link":"https://github.com/echimine",
+            "text":"https://github.com/echimine",
+            "iconclass":"fa-brands fa-github"
+        },
+        {
+            "link":"https://www.linkedin.com/in/eliott-chiminello/",
+            "text":"https://www.linkedin.com/in/eliott-chiminello/",
+            "iconclass":"fa-brands fa-linkedin"
+        }
+    ]
+}
